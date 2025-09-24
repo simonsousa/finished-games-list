@@ -41,7 +41,3 @@ To get started with the Finished Games List application, follow these steps:
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
