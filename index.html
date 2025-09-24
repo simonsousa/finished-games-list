@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finished Games List</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Jogos Concluídos</h1>
+        
+        <!-- Seção de Estatísticas -->
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Total</h3>
+                <span id="totalGames">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Concluídos</h3>
+                <span id="completedGames">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Pendentes</h3>
+                <span id="pendingGames">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Progresso</h3>
+                <span id="completionRate">0%</span>
+            </div>
+        </div>
+
+        <div class="game-input">
+            <input type="text" id="gameInput" placeholder="Adicionar novo jogo">
+            <button id="addGameButton">Adicionar</button>
+        </div>
+        <ul id="gameList"></ul>
+    </div>
+    
+    <script src="src/components/GameList.js"></script>
+    <script src="src/app.js"></script>
+</body>
+</html>
